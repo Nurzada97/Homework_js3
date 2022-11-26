@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+  
+  .text1 ,
+  .change,
+  .movies,
+  .keyboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+    color: #5D6D7E;
+  }
+  
+  .text1,
+  .movies {
+    background-color: #EAF2F8;
+  }
+  
+  .change,
+  .keyboard {
+    background-color: #D5F5E3;
+  }
+  
+  h2 {
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .change li {
+    display: inline-flex;
+  }
+  
+  .filminfo {
+    transition: display 0.5s;
+    display: none;
+  }
+  
+  .t4_p {
+    font-size: 120px;
+    color: #1B2631;
+    background-color: #76448A;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    opacity: 0%;
+  }
